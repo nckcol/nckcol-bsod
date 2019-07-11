@@ -1,0 +1,22 @@
+{
+  "name": "nckcol-bsod",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nckcol/nckcol-bsod.git"
+  },
+  "author": "Nick Popov <nckcol@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nckcol/nckcol-bsod/issues"
+  },
+  "homepage": "https://nckcol.com",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

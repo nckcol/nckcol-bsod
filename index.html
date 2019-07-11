@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="author" content="Nick Popov" />
+        <meta name="description" content="Personal website of front-end engineer" />
+        <meta name="keywords" content="engineer, front-end, javascript, developer, react" />
+
+        <link href="./main.css" rel="stylesheet" />
+
+        <!-- prettier-ignore -->
+        <script>
+            (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
+            h=encodeURIComponent,i=d.pushState,k=function(){return Math.random().toString(36)},
+            l=function(){return g.cid||(g.cid=k()),g.cid},m=function(r){var s=[];for(var t in r)
+            r.hasOwnProperty(t)&&void 0!==r[t]&&s.push(h(t)+"="+h(r[t]));return s.join("&")},
+            n=function(r,s,t,u,v,w,x){var z="https://www.google-analytics.com/collect",
+            A=m({v:"1",ds:"web",aip:c.anonymizeIp?1:void 0,tid:b,cid:l(),t:r||"pageview",dr:e.referrer||
+            void 0,dt:e.title,dl:e.location.origin+e.location.pathname+e.location.search,ul:c.language?
+            (f.language||"").toLowerCase():void 0,de:c.characterSet?e.characterSet:void 0,
+            sr:c.screenSize?(a.screen||{}).width+"x"+(a.screen||{}).height:void 0,vp:c.screenSize&&
+            a.visualViewport?(a.visualViewport||{}).width+"x"+(a.visualViewport||{}).height:void 0,
+            ec:s||void 0,ea:t||void 0,el:u||void 0,ev:v||void 0,exd:w||void 0,exf:"undefined"!=typeof x&&
+            !1==!!x?0:void 0});if(f.sendBeacon)f.sendBeacon(z,A);else{var y=new XMLHttpRequest;
+            y.open("POST",z,!0),y.send(A)}};d.pushState=function(r){return"function"==typeof d.onpushstate&&
+            d.onpushstate({state:r}),setTimeout(n,c.delay||10),i.apply(d,arguments)},n(),
+            a.ma={trackEvent:function o(r,s,t,u){return n("event",r,s,t,u)},
+            trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
+            (window,"UA-143672463-1",{anonymizeIp:true,characterSet:true,screenSize:true,language:true});
+        </script>
+
+        <title>undefined is not a function &mdash; nckcol.com</title>
+    </head>
+    <body>
+        <div class="content">
+            <p>
+                A problem has been detected and Winbows has been shut down to prevent damage to your
+                computer.
+            </p>
+            <p>
+                If this is the first time you've seen this stop error screen, restart your computer.
+                If this screen appears again, follow these steps:
+            </p>
+            <p>
+                Follow me on <a href="https://twitter.com/nckcol">twitter</a> or check out my
+                <a href="https://github.com/nckcol">github</a>
+            </p>
+            <p>
+                Check to make sure any new hardware or software is properly installed. I this is a
+                new installation, ask your hardware or software manufacturer for and Winbows updates
+                you might need.
+            </p>
+            <p>
+                If problems continue, disable or remove any newly installed hardware or software.
+                Disable BIOS memory options such as caching or shadowing. If you need to use Safe
+                Mode to remove or disable components, restart your computer, press F8 to select
+                Advanced Startup Options, and then select Safe Mode.
+            </p>
+            <p>
+                Technical information:
+            </p>
+            <p>
+                *** STOP: 0x0000DA1E (0x00000010, 0x000000004, 0x000007CD)
+            </p>
+        </div>
+    </body>
+</html>
